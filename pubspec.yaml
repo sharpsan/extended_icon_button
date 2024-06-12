@@ -1,6 +1,6 @@
 name: icon_button_extended
 description: "Extends the IconButton widget and adds support for long presses and holds."
-version: 0.3.0
+version: 0.3.1
 homepage: https://github.com/sharpsan/icon_button_extended
 
 environment:

@@ -1,10 +1,10 @@
-name: extended_icon_button
+name: icon_button_extended
 description: "Extends the IconButton widget and adds support for long presses and holds."
 version: 0.3.0
-homepage: https://github.com/sharpsan/extended_icon_button
+homepage: https://github.com/sharpsan/icon_button_extended
 
 environment:
-  sdk: '>=3.4.3 <4.0.0'
+  sdk: ">=3.4.3 <4.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
@@ -15,5 +15,5 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^4.0.0
-  
+
 flutter:

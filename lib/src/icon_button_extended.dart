@@ -3,8 +3,8 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 
 /// Adds [onLongPress] and [onLongHold] to [IconButton].
-class ExtendedIconButton extends StatefulWidget {
-  const ExtendedIconButton({
+class IconButtonExtended extends StatefulWidget {
+  const IconButtonExtended({
     super.key,
     required this.icon,
     required this.onPressed,
@@ -60,10 +60,10 @@ class ExtendedIconButton extends StatefulWidget {
   final Duration longHoldDebounce;
 
   @override
-  State<ExtendedIconButton> createState() => _ExtendedIconButtonState();
+  State<IconButtonExtended> createState() => _IconButtonExtendedState();
 }
 
-class _ExtendedIconButtonState extends State<ExtendedIconButton> {
+class _IconButtonExtendedState extends State<IconButtonExtended> {
   Timer? _longHoldTimer;
 
   @override

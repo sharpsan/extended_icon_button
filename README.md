@@ -7,7 +7,7 @@ Adds `onLongPress` and `onLongHold` to `[IconButton]`.
 Check out the example app for more info.
 
 ```dart
-ExtendedIconButton(
+IconButtonExtended(
     onPressed: () {
         /// increment on press
     },
